@@ -1,0 +1,5 @@
+Em chia làm 2 folder riêng cho BE và FE ạ
+
+Back-end : demo_2 - Spring boot
+Front-end : Frontend - ReactJs
+Database : btl.sql

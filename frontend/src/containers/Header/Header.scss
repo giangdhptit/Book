@@ -1,0 +1,40 @@
+@import "../../styles/common.scss";
+
+.header-container {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(145, 196, 200);
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+    .btn-logout {
+       
+        margin-left: 0;
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        &:hover {
+            background-color: darkgrey;
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+    .btn-cart {
+
+        margin-right: 0;
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+
+        &:hover {
+            background-color: darkgrey;
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+}
